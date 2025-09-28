@@ -1,0 +1,219 @@
+body {
+   margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: url('orbitX2.png') center/cover no-repeat fixed;
+  background-color: #0b0c2a; /* fallback color */
+  color: #ffffff;
+}
+
+
+/* Header */
+
+
+#team-info {
+  background-color: #1e1f3d;
+  padding: 1rem;
+  margin-top: 0.5rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.hidden {
+  display: none;
+}
+
+#team-toggle {
+  cursor: pointer;
+  color: #00bfff;
+  transition: color 0.3s ease;
+}
+
+#team-toggle:hover {
+  color: #ffffff;
+}
+
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header-logo {
+  width: 60px;
+  height: auto;
+}
+
+.logo-text h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #00bfff;
+}
+
+.logo-text p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+
+
+
+.main-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1f2a44;
+  padding: 1rem;
+  border-bottom: 2px solid #00bfff;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.header-logo {
+  width: 50px;
+  height: auto;
+}
+
+.logo-text h1 {
+  margin: 0;
+  font-size: 1.4rem;
+  color: #00bfff;
+}
+
+.logo-text p {
+  margin: 0;
+  font-size: 0.8rem;
+  color: #ccc;
+}
+.logo h1 {
+  margin:0;
+  font-size: 1.8rem;
+  color: #000000;
+}
+
+.logo p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.logo-img {
+  width: 120px;
+  margin-bottom: 1rem;
+}
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #00bfff;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 6rem 2rem;
+  background: url('orbitX2.png') center/cover no-repeat fixed;
+  color: white;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  background-color: #00bfff;
+  color: white;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Sections */
+section {
+  padding: 3rem 2rem;
+}
+
+section img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+/* Grid */
+.grid {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #1e1f3d;
+  padding: 1rem;
+  border-radius: 10px;
+  flex: 1;
+  min-width: 250px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+.card:hover {
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 10px 20px rgba(0, 191, 255, 0.3);
+}
+
+/* Booking */
+button {
+  background-color: #00bfff;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #009acd;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #1f2a44;
+}
